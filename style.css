@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 30px;
+    color: rgb(129, 235, 199);
+    background-color:antiquewhite;
+    font-size:35px;
+    text-align: center;
+}
+
+#navbar{
+    color:azure;
+    background-color: gray;
+    font-size: 40px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: azure;
+}
+
+.contact{
+    display: flex;
+}
+
+.container{
+    background-color: #098678;
+    background-image: linear-gradient(160deg, #098678 0%, #0093E9 50%, #ba1012 100%);
+
+}
+
+.contentbox{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(202, 239, 239);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+button{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(53, 53, 222);
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px black;
+}
+
+footer{
+    background-color: antiquewhite;
+}
